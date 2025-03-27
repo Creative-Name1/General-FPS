@@ -5,16 +5,13 @@ height = 1.8
 
 [node name="Player" type="CharacterBody3D"]
 
-[node name="Collision hitbox" type="CollisionShape3D" parent="."]
+[node name="CollisionObject3D" type="CollisionShape3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9, 0)
 shape = SubResource("CapsuleShape3D_ftlma")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.27157, 0)
 
 [node name="Ground detection" type="RayCast3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
 target_position = Vector3(0, -1.1, 0)
-
-[node name="Eyes" type="Camera3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.27157, 0)
-
-[node name="Crosshair" type="RayCast3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.27157, 0)
