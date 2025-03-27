@@ -1,0 +1,9 @@
+# Godot 4+ specific ignores
+.import/
+.export/
+.godot/
+*.godot-import
+*.mono
+*.tmp
+*.log
+mono_crash.*
