@@ -12,6 +12,7 @@ config_version=5
 
 config/name="general-FPS"
 config/description="a simple FPS project to learn how to make some basic mechanics"
+run/main_scene="uid://c08olg57grg35"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
 

@@ -7,7 +7,11 @@ size = Vector2(20, 20)
 
 [node name="Node3D" type="Node3D"]
 
+[node name="Sun" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, -0.0990143, 8.75371, -0.500806)
+
 [node name="Ground" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0990143, -0.242255, -0.500806)
 mesh = SubResource("PlaneMesh_0cbac")
 
 [node name="Player" parent="." instance=ExtResource("1_0vgk8")]
