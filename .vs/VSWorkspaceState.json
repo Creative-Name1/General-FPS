@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\Entities",
+    "\\src\\Entities\\player",
+    "\\src\\Scenes"
   ],
-  "SelectedNode": "\\C:\\Users\\Admin\\Source\\Repos\\General-FPS",
+  "SelectedNode": "\\src\\Entities\\player\\Player.cs",
   "PreviewInSolutionExplorer": false
 }

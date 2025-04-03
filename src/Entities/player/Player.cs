@@ -1,5 +1,5 @@
 /*
- * March 27, 2025
+ * April 3, 2025
  * Ivan Popov
  * Purpose: to deal with player movement (keys, mouse movement)
  */
@@ -14,18 +14,23 @@ public partial class Player : CharacterBody3D
     private Vector3 _rotation = Vector3.Zero; // Vector3 = vector containing 3 values, for x, y, and z
     private Camera3D _camera;
 
+    public const float toRadians = (float.Pi) / 180;
+
     public override void _Ready()
     {
         _camera = GetNode<Camera3D>("Camera3D"); // GetNode<type>("Name") fetches reference to our "camera" object and assigns it to our Camera3D object (in the script)
 
         Input.MouseMode = Input.MouseModeEnum.Captured;
+        GD.Print("Hello world");
+        GD.Print(Input.MouseMode);
     }
 
     public override void _Input(InputEvent @event) // Godot sends input data when this function is called as an InputEvent object
     {
         if (@event is InputEventMouseMotion mouseEvent)
         {
-
+            GD.Print("The mouse moved! " + mouseEvent.ScreenRelative);
+            _camera.RotateY((mouseEvent.ScreenRelative[0])*toRadians);
         }
     }
 
@@ -33,4 +38,5 @@ public partial class Player : CharacterBody3D
     {
 
     }
+
 }

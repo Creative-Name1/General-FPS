@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\General-FPS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\source\\repos\\General-FPS\\src\\Entities\\player\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Entities\\player\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E17E517C-285C-4874-A850-D9E903E775B2}|New Game Project.csproj|c:\\users\\admin\\source\\repos\\general-fps\\src\\entities\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E17E517C-285C-4874-A850-D9E903E775B2}|New Game Project.csproj|solutionrelative:src\\entities\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,9 +24,9 @@
               "RelativeDocumentMoniker": "src\\Entities\\player\\Player.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\General-FPS\\src\\Entities\\player\\Player.cs",
               "RelativeToolTip": "src\\Entities\\player\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T15:30:00.879Z",
+              "WhenOpened": "2025-04-03T15:42:15.768Z",
               "EditorCaption": ""
             }
           ]
